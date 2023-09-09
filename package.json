@@ -5,7 +5,8 @@
   "main": "Helloworld.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon JWT"
+    "dev": "nodemon JWT",
+    "dev2": "nodemon JWT-copy"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,17 @@
+POST  http://localhost:4000/signUP
+
+Content-Type: application/json
+{
+    "name":"ROMANOZZI",
+    "password":"ALgamed"
+}
+
+POST  http://localhost:4000/login
+Content-Type: application/json
+{
+    "name":"ROMANOZZI",
+    "password":"ALgamed"
+}
+
+GET  http://localhost:4000/login
+authorization: 
